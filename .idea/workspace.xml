@@ -25,7 +25,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -55,6 +55,7 @@
       <option name="presentableId" value="Default" />
       <updated>1587232273504</updated>
       <workItem from="1587232290920" duration="161000" />
+      <workItem from="1587323287131" duration="2274000" />
     </task>
     <servers />
   </component>
@@ -71,5 +72,20 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="348" y="59" width="743" height="501" key="#Notifications" timestamp="1587323953775">
+      <screen x="0" y="0" width="1366" height="714" />
+    </state>
+    <state x="348" y="59" width="743" height="501" key="#Notifications/0.0.1366.714@0.0.1366.714" timestamp="1587323953775" />
+    <state x="507" y="277" key="NewPhpFileDialog" timestamp="1587324388155">
+      <screen x="0" y="0" width="1366" height="714" />
+    </state>
+    <state x="507" y="277" key="NewPhpFileDialog/0.0.1366.714@0.0.1366.714" timestamp="1587324388155" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1587326578419">
+      <screen x="0" y="0" width="1366" height="714" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1366.714@0.0.1366.714" timestamp="1587326578419" />
   </component>
 </project>
