@@ -4,6 +4,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <html lang="en">
 <head>
 
+</head>
+<body>
+
     <table>
         <tr>
             <td>Id</td>
@@ -11,16 +14,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         </tr>
         <?php foreach ($carros as $carro) : ?>
-        <tr>
-            <td><?php echo $carro['id_carro']?></td>
-            <td><?php echo $carro['modelo']?></td>
-        </tr>
+            <tr>
+                <td><?php echo $carro['id_carro']?></td>
+                <td><?php echo $carro['modelo']?></td>
+            </tr>
         <?php endforeach; ?>
     </table>
-</head>
-<body>
-
-
 
 
 
