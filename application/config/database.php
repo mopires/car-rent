@@ -73,12 +73,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $active_group = 'default';
 $query_builder = TRUE;
 
+
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost:3306',
-	'username' => 'root',
-	'password' => '',
-	'database' => 'locadora',
+	'hostname' => 'https://databases.000webhost.com/',
+	'username' => 'id13365335_root',
+	'password' => '4w-e!T[Ib8uVX*DV',
+	'database' => 'id13365335_locadora',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
