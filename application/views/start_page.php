@@ -10,10 +10,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <td>Nome</td>
 
         </tr>
-        <?php foreach ($carros as carro){ ?>
+        <?php foreach ($carros as $carro) : ?>
         <tr>
-            <td><?php $carro['nome']</td>
+            <td><?php echo $carro['id_carro']?></td>
+            <td><?php echo $carro['modelo']?></td>
         </tr>
+        <?php endforeach; ?>
     </table>
 </head>
 <body>

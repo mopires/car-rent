@@ -10,4 +10,9 @@ class StartPageController extends CI_Controller {
         $dados = array('carros' => $lista);
         $this->load->view('start_page', $dados);
     }
+
+    public function search($query){
+
+    }
+
 }
