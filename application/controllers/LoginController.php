@@ -8,4 +8,15 @@ class LoginController extends CI_Controller {
         $this->load->view('login/index.php');
     }
 
+    public function login($email, $password){
+
+        $this->load->model('LoginValidateModel');
+        if($this->LoginValidateModel->validate($email,$password)){
+            $this->load->view('client/');
+        }else{
+
+        }
+
+    }
+
 }

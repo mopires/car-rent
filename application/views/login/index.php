@@ -8,6 +8,39 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 </head>
 <body>
-Login
+
+    <div class="container">
+        <div class="row">
+
+
+            <div class="offset-4">
+                <h1>Locadora </h1>
+            </div>
+
+            <div class="offset-4">
+                <form action="<? site_url('login/validate')?>">
+                    <div class="form-group">
+                        <label for="email">Email address:</label>
+                        <input type="email" class="form-control" placeholder="Enter email" id="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="pwd">Password:</label>
+                        <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+                    </div>
+                    <div class="form-group form-check">
+                        <label class="form-check-label">
+                            <input class="form-check-input" type="checkbox"> Remember me
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Login</button>
+                </form>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
 </body>
 </html>

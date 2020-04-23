@@ -53,7 +53,8 @@ $route['default_controller'] = 'StartPageController';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
-
+$route['login'] = "LoginController/index";
+$route['login/validate'] = "LoginController/login";
 
 
 

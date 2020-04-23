@@ -19,7 +19,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                 <!-- Links -->
                 <ul class="navbar-nav">
-                    <a href="<? echo site_url('LoginController/index')?>">Login</a>
+                    <a href="<? echo site_url('login')?>">Login</a>
 
                 </ul>
             </nav>
