@@ -4,10 +4,29 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <html lang="en">
 <head>
 
+    <link rel="stylesheet" href="<?php echo base_url('bootstrap/css/bootstrap.css');?>"/>
+
 </head>
 <body>
 
-    <table>
+    <div class="container">
+        <div class="row">
+            <nav class="navbar navbar-expand-sm">
+                <!-- Brand/logo -->
+                <a class="navbar-brand" href="#inicio">
+                    Locadora
+                </a>
+
+                <!-- Links -->
+                <ul class="navbar-nav">
+                    <a href="<? echo site_url('LoginController/index')?>">Login</a>
+
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <table class="table">
         <tr>
             <td>Id</td>
             <td>Nome</td>

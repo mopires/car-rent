@@ -11,8 +11,4 @@ class StartPageController extends CI_Controller {
         $this->load->view('start_page', $dados);
     }
 
-    public function search($query){
-
-    }
-
 }
