@@ -11,6 +11,10 @@ class LoginValidateModel extends CI_Model{
                                     " and password = " .$this->db->escape($password);
 
         $resultado = $this->db->query($sql);
+        $user = $resultado->row();
+        $this->load->library('session');
+        $this->session->set_userdata('nome',$user->primeiro_nome);
+
         return $resultado->num_rows() == 1;
 
     }

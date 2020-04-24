@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+?><!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -8,7 +10,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Shop Homepage - Start Bootstrap Template</title>
+  <title>Locadora</title>
 
   <!-- Bootstrap core CSS -->
   <link href="<?php echo base_url('bootstrap/css/bootstrap.css');?>" rel="stylesheet">
