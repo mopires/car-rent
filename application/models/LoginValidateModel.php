@@ -13,7 +13,10 @@ class LoginValidateModel extends CI_Model{
         $resultado = $this->db->query($sql);
         $user = $resultado->row();
         $this->load->library('session');
-        $this->session->set_userdata('nome',$user->primeiro_nome);
+        $this->session->set_userdata(
+            'nome',$user->primeiro_nome,
+            'email',$user->email
+        );
 
         return $resultado->num_rows() == 1;
 

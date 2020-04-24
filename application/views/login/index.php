@@ -11,9 +11,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 </head>
 <body>
-<?if (is_array($erro)){
-echo $erro->erro;
-}?>
+
     <div class="container">
         <div class="row">
 
