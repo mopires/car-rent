@@ -6,9 +6,12 @@ class LoginValidateModel extends CI_Model{
 
     public function validate($email, $password){
 
-        $query = $this->db->query("select 1 from usuario where email = " . $email . " and password = " .$password);
+        $sql = "select id_usuario, cpf, primeiro_nome, cnh, email  from usuario where email = " .
+                                    $this->db->escape($email) .
+                                    " and password = " .$this->db->escape($password);
 
-        return $query->result() ? true : false ;
+        $resultado = $this->db->query($sql);
+        return $resultado->num_rows() == 1;
 
     }
 

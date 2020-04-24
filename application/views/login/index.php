@@ -1,5 +1,8 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
+
+
+
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +11,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 </head>
 <body>
-
+<?if (is_array($erro)){
+echo $erro->erro;
+}?>
     <div class="container">
         <div class="row">
 
@@ -18,14 +23,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div>
 
             <div class="offset-4">
-                <form action="<? site_url('login/validate')?>">
+                <form method="post" action="<? echo site_url('login/validate')?>">
                     <div class="form-group">
                         <label for="email">Email address:</label>
-                        <input type="email" class="form-control" placeholder="Enter email" id="email">
+                        <input type="email" class="form-control" placeholder="Enter email" id="email" name="email">
                     </div>
                     <div class="form-group">
                         <label for="pwd">Password:</label>
-                        <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+                        <input type="password" class="form-control" placeholder="Enter password" id="pwd" name="password">
                     </div>
                     <div class="form-group form-check">
                         <label class="form-check-label">

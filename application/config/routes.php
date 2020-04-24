@@ -59,6 +59,3 @@ $route['login/validate'] = "LoginController/login";
 
 
 
-
-
-
